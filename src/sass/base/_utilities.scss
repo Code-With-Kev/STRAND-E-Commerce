@@ -1,1 +1,11 @@
+.skew{
+    transition: .4s all ease;
 
+    &:hover{
+    transform: skewX(-20deg) translateX(5%);
+    }
+}
+
+.margin-top{
+    margin-top: 1.5rem;
+}

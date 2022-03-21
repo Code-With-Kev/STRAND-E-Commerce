@@ -4,3 +4,53 @@
     color: #E85A4F;
 }
 
+.title{
+
+    &__slide{
+        margin-top: 10rem;
+        color: $color-black;
+    }
+
+    &__standard{
+        font-size: 2.5vw;
+        text-align: justify;
+
+        &::after{
+            content:"";
+            display: inline-block;
+            width:fit-content;
+        }
+    }
+
+    &__highlight{
+        font-size: 3.5vw;
+        text-align: justify;
+        background-color: $color-secondary-dark;
+        font-style: italic;
+        padding: 0 1rem;
+
+        &::after{
+            content:"";
+            display: inline-block;
+            width:fit-content;
+        }
+    }
+}
+
+.description{
+    font-size: 1.25vw;
+    text-align: justify;
+
+    &::after{
+        content:"";
+        display: inline-block;
+        width:fit-content;
+    }
+
+    &__slide{
+        margin: 10rem 4rem 2rem 0;
+        color: $color-secondary-light;
+        font-weight: 500;
+    }
+}
+//MOVEMENT/MOMENT

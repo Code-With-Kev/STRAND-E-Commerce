@@ -1,4 +1,3 @@
-import styled from "styled-components"
 import '../sass/sass.css'
 
 const Announcement = () => {
