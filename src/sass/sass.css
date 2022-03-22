@@ -401,6 +401,21 @@
   position: relative;
 }
 
+.slideshow0 {
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
+}
+
+.slideshow1 {
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+}
+
+.slideshow2 {
+  -webkit-transform: translateY(200%);
+          transform: translateY(200%);
+}
+
 .slide {
   display: -ms-grid;
   display: grid;
@@ -412,7 +427,6 @@
 }
 
 .slide--image {
-  background-image: url("https://images.pexels.com/photos/6700513/pexels-photo-6700513.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;

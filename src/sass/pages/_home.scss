@@ -1,9 +1,18 @@
 .slideshow{
     display: grid;
     grid-template-columns: repeat(3, 100vw);
-    overflow: hidden;
+    //overflow: hidden;
     height: 100vh;
     position: relative;
+    &0{
+        transform: translateY(0%)
+    }
+    &1{
+        transform: translateY(100%)
+    }
+    &2{
+        transform: translateY(200%)
+    }
 }
 
 .slide{

@@ -13,14 +13,14 @@ export const slideshowSets = [
     },
     {
         id: 2,
-        img: "https://www.pexels.com/photo/crop-shirtless-black-man-holding-coffee-cup-5301669/",
+        img: "https://images.pexels.com/photos/5301654/pexels-photo-5301654.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         alt: "Trans person",
         standardA: "BEING",
         highlightA: "TRANS",
         highlightB: "AND PROUD",
         standardB: "IN A WORLD",
         standardC: "WITH",
-        highlightC: "TRANSPHOBES",
+        highlightC: "HATERS",
         description: "Find out what materials work best with your natural hair and check out some of our favorite brands"
     },
     {
