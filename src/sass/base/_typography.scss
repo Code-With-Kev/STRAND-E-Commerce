@@ -41,7 +41,6 @@
 
 .description{
     font-size: 1vw;
-    text-align: justify;
     text-align: center;
 
     &::after{
@@ -53,7 +52,7 @@
     &__slide{
         margin: 3rem 4rem 2rem 0;
         color: $color-secondary-light;
-        font-weight: 500;
+        font-weight: 700;
         align-self: center;
     }
 }

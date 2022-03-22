@@ -1,11 +1,19 @@
 .slideshow{
+    display: grid;
+    grid-template-columns: repeat(3, 100vw);
+    overflow: hidden;
+    height: 100vh;
+    position: relative;
+}
+
+.slide{
     display:grid;
-    grid-template-rows: minmax(100vh, auto);
+    grid-template-rows: 100vh;
     grid-template-columns: 3fr 1fr;
     position: relative;
 
     &--image{
-        background-image: url("https://images.pexels.com/photos/6700513/pexels-photo-6700513.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+        //background-image: url("https://images.pexels.com/photos/6700513/pexels-photo-6700513.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
         background-size:cover;
         background-repeat: no-repeat;
         background-position: top;
@@ -13,8 +21,13 @@
     }
 
     &--info{
-        padding-top: 10rem;
+        display:grid;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
         padding-left: 2rem;
+        min-width: 300px;
+        align-content: center;
     }
 
 }
+

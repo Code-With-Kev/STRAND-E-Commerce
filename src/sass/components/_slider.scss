@@ -7,7 +7,7 @@
         width: 5rem;
         height: 5rem;
         border-radius: 50%;
-        background-color: $color-primary-light;
+        background-color: $color-secondary-dark;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -45,7 +45,7 @@
 
     &--arrow-icon{
         transform: scale(2.5);
-        color: $color-secondary-dark
+        color: $color-primary;
     }
 
     &--slideshow{
