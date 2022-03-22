@@ -12,6 +12,10 @@
   margin-top: 1.5rem;
 }
 
+.overflow {
+  overflow: hidden;
+}
+
 .container--announcement {
   height: 30px;
   background-color: #E85A4F;
@@ -152,8 +156,8 @@
 }
 
 .slider--arrow__left {
-  top: 50%;
-  left: 5%;
+  top: 90%;
+  left: 84%;
 }
 
 .slider--arrow__left:hover {
@@ -162,8 +166,8 @@
 }
 
 .slider--arrow__right {
-  top: 50%;
-  right: 5%;
+  top: 90%;
+  right: 7%;
 }
 
 .slider--arrow__right:hover {
@@ -239,7 +243,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 
 .button__slide {
@@ -396,24 +400,39 @@
   display: grid;
   -ms-grid-columns: (100vw)[3];
       grid-template-columns: repeat(3, 100vw);
-  overflow: hidden;
+  -ms-grid-rows: (100vh)[3];
+      grid-template-rows: repeat(3, 100vh);
   height: 100vh;
   position: relative;
+  -webkit-transition: .5s all ease;
+  transition: .5s all ease;
 }
 
 .slideshow0 {
-  -webkit-transform: translateY(0%);
-          transform: translateY(0%);
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
 }
 
 .slideshow1 {
-  -webkit-transform: translateY(100%);
-          transform: translateY(100%);
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
 }
 
 .slideshow2 {
-  -webkit-transform: translateY(200%);
-          transform: translateY(200%);
+  -webkit-transform: translateX(-200%);
+          transform: translateX(-200%);
+}
+
+.slideshow-two {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (100vw)[3];
+      grid-template-columns: repeat(3, 100vw);
+  -ms-grid-rows: (100vh)[3];
+      grid-template-rows: repeat(3, 100vh);
+  height: 100vh;
+  -webkit-transition: 1.5s all ease;
+  transition: 1.5s all ease;
 }
 
 .slide {
@@ -423,7 +442,6 @@
       grid-template-rows: 100vh;
   -ms-grid-columns: 3fr 1fr;
       grid-template-columns: 3fr 1fr;
-  position: relative;
 }
 
 .slide--image {
@@ -442,6 +460,7 @@
   min-width: 300px;
   -ms-flex-line-pack: center;
       align-content: center;
+  margin-top: -22rem;
 }
 
 *,
@@ -462,7 +481,6 @@ body {
 
 html {
   font-size: 62.5%;
-  max-width: 2560px;
   padding: 0;
   margin: 0;
 }
