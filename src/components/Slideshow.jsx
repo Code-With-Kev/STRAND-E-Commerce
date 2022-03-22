@@ -15,7 +15,7 @@ const Slideshow = () => {
     }
 
     return (
-        <div className="slideshow"> 
+        <div className="slideshow overflow"> 
 
             {/* --------------------------------------SLIDE ARROWS--------------------------------------------------- */}
 
@@ -28,7 +28,7 @@ const Slideshow = () => {
             </div>
 
             {/* ---------------------------------------SLIDESHOW--------------------------------------------------- */}
-            <div className={`slideshow${slideIndex}`}>
+            <div className={`slideshow-two slideshow${slideIndex}`}>
                 {slideshowSets.map(slide =>
                 <div className="slide">
                     <div className="slide--image" style={{backgroundImage: `url(${slide.img})`}}></div>

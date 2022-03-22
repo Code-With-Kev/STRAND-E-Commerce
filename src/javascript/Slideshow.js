@@ -25,7 +25,7 @@ export const slideshowSets = [
     },
     {
         id: 3,
-        img: "https://www.pexels.com/photo/a-woman-posing-at-the-camera-3888212//",
+        img: "https://images.pexels.com/photos/3888212/pexels-photo-3888212.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
         alt: "Women modelling",
         standardA: "STAYING YOUR",
         highlightA: "AUTHENTIC",

@@ -1,25 +1,35 @@
 .slideshow{
     display: grid;
     grid-template-columns: repeat(3, 100vw);
-    //overflow: hidden;
+    grid-template-rows: repeat(3, 100vh);
     height: 100vh;
     position: relative;
+    transition: .5s all ease;
+
     &0{
-        transform: translateY(0%)
+        transform: translateX(0%)
     }
     &1{
-        transform: translateY(100%)
+        transform: translateX(-100%)
     }
     &2{
-        transform: translateY(200%)
+        transform: translateX(-200%)
     }
+}
+
+.slideshow-two{
+    display: grid;
+    grid-template-columns: repeat(3, 100vw);
+    grid-template-rows: repeat(3, 100vh);
+    height: 100vh;
+    transition: 1.5s all ease;
 }
 
 .slide{
     display:grid;
     grid-template-rows: 100vh;
     grid-template-columns: 3fr 1fr;
-    position: relative;
+
 
     &--image{
         //background-image: url("https://images.pexels.com/photos/6700513/pexels-photo-6700513.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
@@ -36,7 +46,7 @@
         padding-left: 2rem;
         min-width: 300px;
         align-content: center;
+        margin-top: -22rem;
     }
 
 }
-
