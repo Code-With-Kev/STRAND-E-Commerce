@@ -5,9 +5,10 @@
 }
 
 .title{
+    color: $color-black;
 
     &__slide{
-        margin-top: 10rem;
+        margin-top: 7rem;
         color: $color-black;
     }
 
@@ -28,6 +29,7 @@
         background-color: $color-secondary-dark;
         font-style: italic;
         padding: 0 1rem;
+        font-weight: 700;
 
         &::after{
             content:"";
@@ -38,8 +40,9 @@
 }
 
 .description{
-    font-size: 1.25vw;
+    font-size: 1vw;
     text-align: justify;
+    text-align: center;
 
     &::after{
         content:"";
@@ -48,9 +51,10 @@
     }
 
     &__slide{
-        margin: 10rem 4rem 2rem 0;
+        margin: 3rem 4rem 2rem 0;
         color: $color-secondary-light;
         font-weight: 500;
+        align-self: center;
     }
 }
 //MOVEMENT/MOMENT

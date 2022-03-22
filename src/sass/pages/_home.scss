@@ -1,0 +1,20 @@
+.slideshow{
+    display:grid;
+    grid-template-rows: minmax(100vh, auto);
+    grid-template-columns: 3fr 1fr;
+    position: relative;
+
+    &--image{
+        background-image: url("https://images.pexels.com/photos/6700513/pexels-photo-6700513.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: top;
+        overflow:hidden;
+    }
+
+    &--info{
+        padding-top: 10rem;
+        padding-left: 2rem;
+    }
+
+}

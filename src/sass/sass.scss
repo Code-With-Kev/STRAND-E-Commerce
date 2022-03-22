@@ -10,18 +10,25 @@
 
 @import "base/typography";
 
+@import "pages/home";
+
+
 *,
-*::after,
-*::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
+*::before,
+*::after {
+  margin: 0;
+  font-family: 'Urbanist', sans-serif;
+  padding: 0;
+  box-sizing: inherit;
 }
-
-body {
-    box-sizing: border-box;
+body{
+  background-color: #EAE7DC;
+  box-sizing: border-box;
 }
-
-html {
-    font-size: 62.5%;
+html{
+  font-size: 62.5%;
+  max-width: 2560px;
+  overflow:hidden ;
+  padding: 0;
+  margin: 0;
 }

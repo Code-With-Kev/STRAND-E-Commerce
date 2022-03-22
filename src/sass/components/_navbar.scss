@@ -16,7 +16,7 @@
         display:flex;
         align-items: center;
         justify-content: flex-end;
-        color: #8E8D8A;
+        color: $color-black;
     }
 
     &--center{
@@ -27,7 +27,7 @@
     &--language{
         font-size: 14px;
         cursor: pointer;
-        color: #8E8D8A;
+        color: $color-black;
     }
 
     &--menu-item{
