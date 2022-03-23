@@ -66,6 +66,7 @@
         height:90%;
         min-width: 50%;
         margin:auto;
+        filter: contrast(.8)
         
         &__hijab{
             filter: contrast(.8);
@@ -77,10 +78,10 @@
         flex-direction: column;
         flex: 1;
         position: relative;
-        justify-content: flex-start;
+        //justify-content: flex-start;
         height: 100%;
         padding-left: 2rem;
-        overflow: hidden;
+        //overflow: hidden;
         min-height: 100%;
         min-width: 25%;
     }

@@ -1,0 +1,90 @@
+.category{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    height: 70vh;
+    position: relative;
+    margin-bottom: -5rem;
+
+    &:hover &--item:not(:hover){
+        transform: scale(.95);
+        filter:brightness(.7);
+    }
+
+    &::after{
+        content: '';
+        height: .5rem; 
+        width: 60%;
+        background-color: $color-secondary-light;
+        position: absolute;
+        top: 1.5%;
+        left: 20%;
+        margin-left: -5px;
+        }
+
+    // &::before{
+    //     content: '';
+    //     height: .5rem;
+    //     width: 60%;
+    //     background-color: $color-secondary-light;
+    //     position: absolute;
+    //     top: 84.5%;
+    //     left: 20%;
+    //     margin-left: -5px;
+    //     }
+    
+    &--item{
+        flex:1;
+        margin: 2rem;
+        position: relative;
+        transform: scale(1);
+        transition: .5s all ease;
+ 
+        &:not(:first-child)::after{
+        content: '';
+        height: 60%; //You can change this if you want smaller/bigger borders
+        width: .5rem;
+        position: absolute;
+        left: -2.25rem;
+        top: 12%; // If you want to set a smaller height and center it, change this valu
+        background-color: $color-secondary-light;
+        }
+
+    
+    }
+
+    &--image{
+        width: 100%;
+        height: 80%;
+        object-fit: cover;
+        filter: brightness(.9) contrast(.9);
+
+    }
+
+    *--title{
+        
+    }
+
+    &--button{
+
+    }
+
+    &--info{
+        position: absolute;
+        width: 100%;
+        height: 80%;
+        top: 0;
+        left: 0;
+        color: $color-primary;
+        font-size: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        &:hover{
+            box-shadow: 0 1rem 2rem rgba( $color-black, .4) ;
+        }
+    }
+}

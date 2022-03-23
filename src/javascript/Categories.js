@@ -1,4 +1,4 @@
-export const slideshowSets = [
+export const categories = [
     {
         id: 1,
         img: "https://images.pexels.com/photos/8482596/pexels-photo-8482596.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
