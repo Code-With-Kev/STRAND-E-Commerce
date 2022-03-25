@@ -17,5 +17,10 @@ Currently working on a socially conscious, beauty e-commerce site called "Strand
 <h3 style="border-bottom: 1px solid gray">
     <span style="font-size: 20px"><br>Products and Categories Section</span>
 </h3>
-
 <img width="1910" alt="Strand_ProductsAndCategoris" src="https://user-images.githubusercontent.com/96272858/160035422-6cc22f18-f404-4c61-8361-9a857a97d751.PNG">
+
+<h3 style="border-bottom: 1px solid gray">
+    <span style="font-size: 20px"><br>Newsletter Section</span>
+</h3>
+
+https://user-images.githubusercontent.com/96272858/160068544-81505654-6df4-47e6-8b2c-209191843083.mp4
