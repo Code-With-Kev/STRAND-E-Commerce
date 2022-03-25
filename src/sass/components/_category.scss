@@ -22,17 +22,6 @@
         left: 20%;
         margin-left: -5px;
         }
-
-    // &::before{
-    //     content: '';
-    //     height: .5rem;
-    //     width: 60%;
-    //     background-color: $color-secondary-light;
-    //     position: absolute;
-    //     top: 84.5%;
-    //     left: 20%;
-    //     margin-left: -5px;
-    //     }
     
     &--item{
         flex:1;
@@ -47,7 +36,7 @@
         width: .5rem;
         position: absolute;
         left: -2.25rem;
-        top: 12%; // If you want to set a smaller height and center it, change this valu
+        top: 20%; // If you want to set a smaller height and center it, change this valu
         background-color: $color-secondary-light;
         }
 
