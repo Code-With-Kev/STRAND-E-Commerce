@@ -30,7 +30,7 @@ const Slideshow = () => {
             {/* ---------------------------------------SLIDESHOW--------------------------------------------------- */}
             <div className={`slideshow-two slideshow${slideIndex}`}>
                 {slideshowSets.map(slide =>
-                <div className="slide">
+                <div className="slide" key={slide.id}>
                     <div className="slide--image" style={{backgroundImage: `url(${slide.img})`}}></div>
                 
                     <div className="slide--info">
@@ -46,7 +46,7 @@ const Slideshow = () => {
                         </div>
                         <div className="slider__info-bottom">
                             <p className="description description__slide">{slide.description}</p>
-                            <a href="#" class="splitColor">VISIT &#8594;</a>
+                            <a href="#" class="splitColor splitColor__slide">VISIT &#8594;</a>
                         </div>
                     </div>
                 </div>

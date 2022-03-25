@@ -1,5 +1,4 @@
 import React from 'react'
-import Category from './Category'
 
 const CategoryItem = ({category}) => {
   return (
@@ -7,7 +6,7 @@ const CategoryItem = ({category}) => {
         <img src={category.img} alt="alt-text" className="category--image" />
         <div className="category--info">
             <h1 className="category--title">{category.title}</h1>
-            <button className="button category--button">SHOP NOW!</button>
+            <a href="#" class="splitColor splitColor__category">BUY NOW!</a>
         </div>
 
     </div>

@@ -1,15 +1,14 @@
 .button{
     &__slide{
         margin: 0 auto;
+        cursor: pointer;
     }
 }
 
 .splitColor {
     text-decoration: none; 
-    color: $color-black;
     font-family: sans-serif;
     font-size: 3.5rem;
-    border: .5rem solid $color-black;
     padding: 3rem 3rem;
     position: relative;
     overflow: hidden;
@@ -20,7 +19,20 @@
     transition: all 1s;
     width: 70%;
     margin: 2rem auto;
-    flex: 1;
+    
+
+    &__category{
+        color: $color-primary;
+        border: .5rem solid $color-primary;
+        filter: drop-shadow( 0rem 0rem 1rem rgba( $color-black, 10));
+        transform: scale(.85)
+    }
+
+    &__slide{
+        color: $color-black;
+        border: .5rem solid $color-black;
+
+    }
 
 
     &:before {
