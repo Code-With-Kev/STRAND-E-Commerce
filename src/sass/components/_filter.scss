@@ -1,23 +1,75 @@
 .filter{
     display: flex;
     justify-content: end;
+    width: 100%;
 
-    &--option{  
-        margin: 2rem;
+    &__left{
         display: flex;
+        flex-direction: row;
+        width: 71%;
         align-items: center;
     }
 
-    &--text{
-        font-size: 3rem;
-        font-weight: 600;
-        margin-left: 2rem;
-        margin-right: 2rem;
+    &__right{
+        width: 20%;
+        //height: 150%;
+        //text-align: center;
     }
 
-    &--select{
-        width: 26%;
-        padding: 1rem;
-        margin-right: 2rem;
+    &__option{  
+        display: flex;
+        align-items: center;
+        align-content: center;
+        height: 10%;
+
+        &--product{
+            margin: 2rem;
+        }
+
+        &--single{
+            margin-top: 4rem;
+            //display: flex;
+            //justify-content: space-between;
+            //flex-wrap: wrap;
+        }
     }
+
+    &__text{
+        font-size: 3rem;
+        font-weight: 600;
+
+        &--black{
+            margin-left: 2rem;
+            margin-right: 2rem;
+        }
+
+    }
+
+    &__sizes{
+        width: 50%;
+        padding: 1rem;
+        padding-left: 4rem;
+        margin-right: 2rem;
+        display: flex;
+    }
+
+    &__type{
+        font-size: 3rem;
+        text-align: center;
+    }
+}
+
+.type--bg{
+    margin-right: 4rem;
+    transition: .5s all ease;
+    width: 25%;
+    border-left: 0 solid rgba($color-primary-light, 0);
+    border-right: 0 solid rgba($color-primary-light, 0);
+    cursor: pointer;
+
+    &:hover{
+    border-left: 5px solid rgba($color-secondary-light, 1);
+    border-right: 5px solid rgba($color-secondary-light, 1);
+    }
+    
 }

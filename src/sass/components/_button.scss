@@ -3,6 +3,13 @@
         margin: 0 auto;
         cursor: pointer;
     }
+
+    &-container{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        margin-top: 4rem;
+    }
 }
 
 .splitColor {
@@ -78,4 +85,16 @@
         transform: scale(1.1)
     }
 
+}
+
+.add-button{
+    background-color: $color-secondary-dark;
+    color: $color-primary;
+    //border: 2px solid $color-black;
+    border:none;
+    width: 75%;
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 0 auto;
 }
