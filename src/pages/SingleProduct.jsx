@@ -2,6 +2,7 @@ import Announcement from "../components/Announcement"
 import Newsletter from "../components/Newsletter"
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
+import { Add, Remove } from "@material-ui/icons"
 
 
 const SingleProduct = () => {
@@ -34,15 +35,16 @@ const SingleProduct = () => {
                     </div>
 
                     <div className="filter__right">
-                        <span className="item__price">$234.99</span>
+                        <span className="item__price">$12.99</span>
                     </div>
                 </div>
 
                     <div className="quantity">
                         <div className="quantity__amount">
-                            <div className="quantity__remove" />
+                            <Remove className="quantity__remove" />
                             <span className="quantity__number">1</span>
-                            <div className="quantity__add" />
+                            <Add className="quantity__add" />
+                            
                         </div>
                         <div className="button-container">
                             <button className="add-button">ADD TO CART</button>
