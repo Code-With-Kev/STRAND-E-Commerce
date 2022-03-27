@@ -20,11 +20,14 @@
     &__add{
         transform: scale(2);
         color: $color-secondary-dark;
+        cursor: pointer;
     }
 
     &__remove{
         transform: scale(2);
         color: $color-secondary-dark;
+        cursor: pointer;
+
     }
 
     &__number{

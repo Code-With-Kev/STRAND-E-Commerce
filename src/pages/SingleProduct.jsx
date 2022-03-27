@@ -19,7 +19,10 @@ const SingleProduct = () => {
             <div className="item__info-container">
                 
                 <h1 className="item__title">Manuka Honey Deep Conditioner</h1>
-                <p className="item__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt nam quibusdam cupiditate sequi iste possimus suscipit, assumenda accusantium eligendi ipsam corrupti, velit, dolore delectus porro officia impedit. Itaque repudiandae nisi molestias, tempora maxime maiores nobis nihil eligendi, deserunt a aliquid.</p>
+                <p className="item__description">
+                Manuka honey is a special type of honey that is relished for its natural healing properties for hair and skin. Due to its excellent versatility, this honey blends well with a wide range of conditioning oils, and Mafura oil is one of our favorite combinations. This Manuka Honey Deep Conditioner provides intense conditioning for hair that is thirsty for moisture, especially curly hair.
+                <br /><br /> This deep conditioner infuses hair with a powerful dose of moisture and nutrients. Depending on the condition of your hair, it can be a quick hydration boost or an extra deep conditioning treatment. Ideal for revitalizing over-processed hair, damaged hair or color-treated hair.
+                <br /><br />Certified organic Shea Butter, Honey, Mafura and Baobab Oils are blended with antioxidant-rich African Rock Fig to restore and lock in moisture. Smooths and fortifies follicles for stronger, healthier frizz-free hair.</p>
 
                 <div className="filter__option filter__option--single">
                     <div className="filter__left">

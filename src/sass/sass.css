@@ -346,6 +346,13 @@
           transform: scale(1.1);
 }
 
+.splitColor:active {
+  -webkit-box-shadow: 0 1rem 1rem rgba(47, 43, 46, 0.15);
+          box-shadow: 0 1rem 1rem rgba(47, 43, 46, 0.15);
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
 .add-button {
   background-color: #E85A4F;
   color: #EAE7DC;
@@ -355,6 +362,22 @@
   font-size: 2rem;
   font-weight: 500;
   margin: 0 auto;
+  -webkit-transition: .5s all ease;
+  transition: .5s all ease;
+}
+
+.add-button:hover {
+  -webkit-transform: translateY(-10%);
+          transform: translateY(-10%);
+  -webkit-box-shadow: 0 1rem 2rem rgba(47, 43, 46, 0.2);
+          box-shadow: 0 1rem 2rem rgba(47, 43, 46, 0.2);
+}
+
+.add-button:active {
+  -webkit-box-shadow: 0 1rem 1rem rgba(47, 43, 46, 0.15);
+          box-shadow: 0 1rem 1rem rgba(47, 43, 46, 0.15);
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
 }
 
 .category {
@@ -932,7 +955,7 @@
 }
 
 .item__description {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   margin-right: 2rem;
 }
 
@@ -979,12 +1002,14 @@
   -webkit-transform: scale(2);
           transform: scale(2);
   color: #E85A4F;
+  cursor: pointer;
 }
 
 .quantity__remove {
   -webkit-transform: scale(2);
           transform: scale(2);
   color: #E85A4F;
+  cursor: pointer;
 }
 
 .quantity__number {
