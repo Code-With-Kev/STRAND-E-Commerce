@@ -30,4 +30,4 @@ https://user-images.githubusercontent.com/96272858/160068544-81505654-6df4-47e6-
 </h1>
 
 
-<img width="1907" alt="Product_Page" src="https://user-images.githubusercontent.com/96272858/160271268-3948dbaa-1420-4481-b31e-d18903dae472.PNG">
+<img width="1906" alt="Product_Page" src="https://user-images.githubusercontent.com/96272858/160272736-1421922d-fc51-4559-b26d-a5189e77cfaa.PNG">
