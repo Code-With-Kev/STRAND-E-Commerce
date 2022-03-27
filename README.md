@@ -24,3 +24,10 @@ Currently working on a socially conscious, beauty e-commerce site called "Strand
 </h3>
 
 https://user-images.githubusercontent.com/96272858/160068544-81505654-6df4-47e6-8b2c-209191843083.mp4
+
+<h1 align="center" style="border-bottom: 3px solid gray">
+    <span style="font-size: 20px"><br>Product Page</span>
+</h1>
+
+
+<img width="1907" alt="Product_Page" src="https://user-images.githubusercontent.com/96272858/160271268-3948dbaa-1420-4481-b31e-d18903dae472.PNG">
