@@ -1,17 +1,17 @@
 .container{
     &--announcement{
-        height: 30px;
+        height: 4rem;
         background-color: #E85A4F;
         color: #EAE7DC;
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size:14px;
+        font-size: 2rem;
         font-weight: 500;
     }
 
     &--navbar{
-        height: 60px;
+        height: 6rem;
     }
 
     &__slider{

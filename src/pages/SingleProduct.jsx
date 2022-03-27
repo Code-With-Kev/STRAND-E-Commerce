@@ -44,11 +44,10 @@ const SingleProduct = () => {
                             <Remove className="quantity__remove" />
                             <span className="quantity__number">1</span>
                             <Add className="quantity__add" />
-                            
+                        </div>
                         </div>
                         <div className="button-container">
                             <button className="add-button">ADD TO CART</button>
-                        </div>
                         </div>
 
 

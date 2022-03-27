@@ -1,19 +1,27 @@
 .quantity{
     display: flex;
     justify-content: center;
-    
+    margin-top: 2rem;
+
     &__amount{
+        display: flex;
+        align-items: center;
+        font-weight: 700;
+        font-size: 3rem;
     }
 
     &__add{
-
+        transform: scale(2);
+        color: $color-secondary-dark;
     }
 
     &__remove{
-
+        transform: scale(2);
+        color: $color-secondary-dark;
     }
 
     &__number{
-        
+        margin: 0 2rem;
+        color: $color-black;
     }
 }
