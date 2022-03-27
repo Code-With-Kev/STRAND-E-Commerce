@@ -42,7 +42,7 @@ const SingleProduct = () => {
                     <div className="quantity">
                         <div className="quantity__amount">
                             <Remove className="quantity__remove" />
-                            <span className="quantity__number">1</span>
+                            <div className="quantity__amount--container"><span className="quantity__number">1</span></div>
                             <Add className="quantity__add" />
                         </div>
                         </div>

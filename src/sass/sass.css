@@ -968,6 +968,13 @@
   font-size: 3rem;
 }
 
+.quantity__amount--container {
+  border: 0.3rem solid #E98074;
+  border-radius: 50rem;
+  margin: 0 2rem;
+  padding: 2rem 0;
+}
+
 .quantity__add {
   -webkit-transform: scale(2);
           transform: scale(2);

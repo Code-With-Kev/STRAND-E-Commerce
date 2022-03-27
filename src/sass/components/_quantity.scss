@@ -8,6 +8,13 @@
         align-items: center;
         font-weight: 700;
         font-size: 3rem;
+
+        &--container{
+            border: .3rem solid $color-secondary-light;
+            border-radius: 50rem;
+            margin: 0 2rem;
+            padding: 2rem 0;
+        }
     }
 
     &__add{
