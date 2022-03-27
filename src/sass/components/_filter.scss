@@ -1,0 +1,23 @@
+.filter{
+    display: flex;
+    justify-content: end;
+
+    &--option{  
+        margin: 2rem;
+        display: flex;
+        align-items: center;
+    }
+
+    &--text{
+        font-size: 3rem;
+        font-weight: 600;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    &--select{
+        width: 26%;
+        padding: 1rem;
+        margin-right: 2rem;
+    }
+}
