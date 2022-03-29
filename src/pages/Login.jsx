@@ -13,8 +13,8 @@ const Login = () => {
                 </div>
             </form>
 
-            <a href="login__link">Don't remember your password?</a>
-            <a href="login__link">Create an account</a>
+            <a className="login__link" href="">Don't remember your password?</a>
+            <a className="login__link" href="">Create an account</a>
         </div>
     </div>
   )

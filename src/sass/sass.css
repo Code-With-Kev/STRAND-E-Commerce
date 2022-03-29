@@ -1196,6 +1196,8 @@
   border: 3px solid rgba(233, 128, 116, 0.4);
   background-color: rgba(234, 231, 220, 0.4);
   min-width: 650px;
+  -webkit-animation: moveInBottom 1s;
+          animation: moveInBottom 1s;
 }
 
 .register__title {
@@ -1259,6 +1261,18 @@
   text-decoration: none;
   color: #2f2b2e;
   font-size: 2rem;
+  cursor: pointer;
+}
+
+.login__link:not(:last-child) {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.login__link:hover {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #E98074;
+          text-decoration-color: #E98074;
 }
 
 *,

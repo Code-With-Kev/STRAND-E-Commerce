@@ -28,6 +28,7 @@
         border: 3px solid rgba($color-secondary-light, .4);
         background-color: rgba($color-primary, .4);
         min-width: 650px;
+        animation: moveInBottom 1s;
     }
     &__title{
         font-size: 5rem;
