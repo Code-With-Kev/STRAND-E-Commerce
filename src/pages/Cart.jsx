@@ -10,10 +10,14 @@ const Cart = () => {
         <div className="cart__wrapper">
             <h1 className="cart__title">YOUR BAG</h1>
             <div className="cart__top">
-                <button className="add-button">CONTINUE SHOPPING</button>
-                <button className="add-button">CHECKOUT NOW</button>
+                <button className="add-button add-button--left">CONTINUE SHOPPING</button>
+                    <p className="cart__top--text">Shopping Bag (2)</p>
+                    <p className="cart__top--text">Your Wishlist (0)</p>
+                <button className="add-button add-button--right">CHECKOUT NOW</button>
             </div>
             <div className="cart__bottom">
+                <span className="cart__info">INFO</span>
+                <span className="cart__summary">SUMMARY</span>
             </div>
         </div>
         <Footer />

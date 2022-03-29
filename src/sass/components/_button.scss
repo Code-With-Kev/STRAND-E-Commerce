@@ -99,17 +99,14 @@
     padding: 2rem;
     font-size: 2rem;
     font-weight: 500;
-    margin: 0 auto;
     transition: .5s all ease;
     
 
     &--long{
         width: 75%;
+        margin: 0 auto;
     }
 
-    &--small{
-
-    }
 
     &:hover{
         transform: translateY(-10%);
@@ -120,4 +117,6 @@
         box-shadow: 0 1rem 1rem rgba($color-black, .15);
         transform: translateY(0);
     }
+
+    
 }
