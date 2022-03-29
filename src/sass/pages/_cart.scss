@@ -45,6 +45,54 @@
 
     &__summary{
         flex: 1;
+
+    }
+
+    &__product{
+        display: flex;
+        justify-content: space-between;
+
+        &-detail{
+            flex: 2;
+            display: flex;
+        }
+
+
+
+        &--name{
+
+        }
+
+        &--id{
+
+        }
+
+        &--size{
+
+        }
+    }
+    
+    &__price-detail{
+        flex:1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__detail{
+
+
+        &--image{
+            width: 20rem;
+        }
+
+        &--text-wrapper{
+            display: flex;
+            padding: 2rem;
+            flex-direction: column;
+            justify-content: space-around;
+        }
     }
 
 }
