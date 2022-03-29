@@ -1331,12 +1331,13 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   font-size: 2rem;
+  margin-top: 5rem;
 }
 
-.cart__info {
-  -webkit-box-flex: 3;
-      -ms-flex: 3;
-          flex: 3;
+.cart__info:not(:last-child) {
+  margin: 2.5rem 0;
+  padding-bottom: 2.5rem;
+  border-bottom: 0.3rem solid #D8C3A5;
 }
 
 .cart__summary {
@@ -1361,6 +1362,12 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.cart__price {
+  font-size: 3rem;
+  font-weight: 200;
+  margin-top: 2rem;
 }
 
 .cart__price-detail {
@@ -1397,6 +1404,12 @@
           flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+.cart__checkout {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
 }
 
 *,

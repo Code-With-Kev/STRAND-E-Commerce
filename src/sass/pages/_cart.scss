@@ -37,10 +37,16 @@
         display: flex;
         justify-content: space-between;
         font-size: 2rem;
+        margin-top: 5rem;
     }
     
     &__info{
-        flex: 3;
+        
+        &:not(:last-child){
+            margin: 2.5rem 0;
+            padding-bottom: 2.5rem;
+            border-bottom: .3rem solid $color-primary-light;
+        }
     }
 
     &__summary{
@@ -71,13 +77,20 @@
 
         }
     }
-    
-    &__price-detail{
-        flex:1;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+    &__price{
+        font-size: 3rem;
+        font-weight: 200;
+        margin-top: 2rem;
+
+        
+        &-detail{
+            flex:1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
     }
 
     &__detail{
@@ -95,4 +108,36 @@
         }
     }
 
+    &__checkout{
+        flex: 3;
+    }
+
 }
+
+.summary{
+    &__title{
+
+    }
+    &__item{
+
+        &--text{
+
+        }
+
+        &--price{
+
+        }
+
+        &--total-text{
+            
+        }
+
+        &--total-price{
+
+        }
+
+    }
+
+}
+
+
