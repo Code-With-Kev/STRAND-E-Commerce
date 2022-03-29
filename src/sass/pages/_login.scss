@@ -1,0 +1,14 @@
+.login{
+    &__form{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    &__link{
+        list-style: none;
+        text-decoration: none;
+        color: $color-black;
+        font-size: 2rem;
+    }
+}
