@@ -12,6 +12,7 @@
 
     &__navbar{
         height: 6rem;
+
     }
 
     &__slider{
@@ -20,5 +21,9 @@
         display:flex;
         background-color: $color-primary;
         position: relative;
+    }
+
+    @media only screen and (max-width: 380px){
+        display: none;
     }
 }
