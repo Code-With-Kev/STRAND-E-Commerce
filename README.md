@@ -42,5 +42,4 @@ https://user-images.githubusercontent.com/96272858/160068544-81505654-6df4-47e6-
     <span style="font-size: 20px"><br>Shopping Cart</span>
 </h1>
 
-<img width="1920" alt="Cart_Page" src="https://user-images.githubusercontent.com/96272858/160575429-54bfdd6b-f341-4a41-9ebe-7ee035895201.PNG">
-
+<img width="1920" alt="Cart_Page2" src="https://user-images.githubusercontent.com/96272858/160576401-a0d94813-1165-4a5d-a575-049e3370205b.PNG">
