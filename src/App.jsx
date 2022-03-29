@@ -3,7 +3,7 @@ import ProductList from "./pages/ProductList";
 import SingleProduct from "./pages/SingleProduct";
 
 const App = () => {
-    return <SingleProduct />
+    return <Register />
 };
 
 export default App;
