@@ -55,7 +55,7 @@ const Cart = () => {
                                         <b>Product:</b> MOROCCAN SUMMER HAIR MASQUE
                                     </span>
                                     <span className="cart__product--id">
-                                        <b>ID:</b> 57334748435
+                                        <b>ID:</b> 5873473847
                                     </span>
                                     <span className="cart__product--size">
                                         <b>Size:</b> 16oz
@@ -79,7 +79,7 @@ const Cart = () => {
 
 
                 <div className="summary">
-                    <div className="summary__title">ORDER SUMMARY</div>
+                    <h1 className="summary__title">ORDER SUMMARY</h1>
                     
                     <div className="summary__item">
                         <span className="summary__item--text">Subtotal</span>
