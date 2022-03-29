@@ -1331,7 +1331,7 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   font-size: 2rem;
-  margin-top: 5rem;
+  margin: 5rem 0;
 }
 
 .cart__info:not(:last-child) {

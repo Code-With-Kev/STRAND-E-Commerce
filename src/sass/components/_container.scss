@@ -1,3 +1,5 @@
+@import "../abstracts/breakpoints";
+
 .container{
     &__announcement{
         height: 4rem;
@@ -8,6 +10,7 @@
         justify-content: center;
         font-size: 2rem;
         font-weight: 500;
+
     }
 
     &__navbar{
@@ -22,8 +25,5 @@
         background-color: $color-primary;
         position: relative;
     }
-
-    @media only screen and (max-width: 380px){
-        display: none;
-    }
+    
 }
