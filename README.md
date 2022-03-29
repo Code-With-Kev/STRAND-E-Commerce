@@ -38,3 +38,8 @@ https://user-images.githubusercontent.com/96272858/160068544-81505654-6df4-47e6-
 
 <img width="1920" alt="RegisterPage" src="https://user-images.githubusercontent.com/96272858/160538032-a2766bf6-8fb1-4503-a86f-e42d952a85b8.PNG">
 
+<h1 align="center" style="border-bottom: 3px solid gray">
+    <span style="font-size: 20px"><br>Shopping Cart</span>
+</h1>
+
+<img width="1920" alt="Cart_Page2" src="https://user-images.githubusercontent.com/96272858/160576401-a0d94813-1165-4a5d-a575-049e3370205b.PNG">
