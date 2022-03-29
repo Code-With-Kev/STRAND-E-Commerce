@@ -1,0 +1,21 @@
+.cart{
+    &__wrapper{
+        border: 5px solid black;
+        padding: 2rem;
+        
+    }
+    &__title{
+        font-size: 6rem;
+        font-weight: 300;
+        text-align: center;
+    }
+    &__top{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    &__bottom{
+
+    }
+
+}

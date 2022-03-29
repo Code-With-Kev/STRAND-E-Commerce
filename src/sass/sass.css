@@ -357,13 +357,16 @@
   background-color: #E85A4F;
   color: #EAE7DC;
   border: none;
-  width: 75%;
   padding: 2rem;
   font-size: 2rem;
   font-weight: 500;
   margin: 0 auto;
   -webkit-transition: .5s all ease;
   transition: .5s all ease;
+}
+
+.add-button--long {
+  width: 75%;
 }
 
 .add-button:hover {
@@ -1273,6 +1276,29 @@
   text-decoration: underline;
   -webkit-text-decoration-color: #E98074;
           text-decoration-color: #E98074;
+}
+
+.cart__wrapper {
+  border: 5px solid black;
+  padding: 2rem;
+}
+
+.cart__title {
+  font-size: 6rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+.cart__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 *,

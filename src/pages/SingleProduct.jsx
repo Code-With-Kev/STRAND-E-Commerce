@@ -50,7 +50,7 @@ const SingleProduct = () => {
                         </div>
                         </div>
                         <div className="button-container">
-                            <button className="add-button">ADD TO CART</button>
+                            <button className="add-button add-button--long">ADD TO CART</button>
                         </div>
 
 

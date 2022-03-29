@@ -20,9 +20,9 @@ const Navbar = () => {
             </div>
 
             <div className="navbar__right">
-                <div className="navbar--menu-item">REGISTER</div>
-                <div className="navbar--menu-item">SIGN IN</div>
-                <div className="navbar--menu-item">
+                <div className="navbar__menu-item">REGISTER</div>
+                <div className="navbar__menu-item">SIGN IN</div>
+                <div className="navbar__menu-item">
                         <ShoppingCartOutlined style={{transform: "scale(1.5)"}}/>
                 </div>
             </div>

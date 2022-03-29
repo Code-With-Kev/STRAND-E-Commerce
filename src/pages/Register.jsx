@@ -16,7 +16,7 @@ const Register = () => {
                     <span className="register__form--agreement">By creating an account, I consent to the processing of my personal data in accordance with the <b>PRIVACY POLICY</b></span>
                 </div>
                 <div className="button-container">
-                    <button className="add-button">CREATE ACCOUNT</button>
+                    <button className="add-button add-button--long">CREATE ACCOUNT</button>
                 </div>
                 
             </form>
