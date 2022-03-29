@@ -46,7 +46,7 @@
     }
 
     &__sizes{
-        width: 50%;
+        width: 100%;
         padding: 1rem;
         padding-left: 4rem;
         margin-right: 2rem;
@@ -56,16 +56,22 @@
     &__type{
         font-size: 3rem;
         text-align: center;
-        min-width:70px;
+        min-width: 100%;
+    }
+
+    //design filter
+    &__select{
+       
     }
 }
 
-.type--bg{
+//stop border from moving screen
+.type__bg{
     margin-right: 4rem;
     transition: .5s all ease;
     width: 25%;
-    border-left: 0 solid rgba($color-primary-light, 0);
-    border-right: 0 solid rgba($color-primary-light, 0);
+    border-left: 0px solid rgba($color-primary-light, 0);
+    border-right: 0px solid rgba($color-primary-light, 0);
     cursor: pointer;
 
     &:hover{

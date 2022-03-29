@@ -28,10 +28,10 @@ const SingleProduct = () => {
                     <div className="filter__left">
                         <span className="filter__text">Choose A Size:</span>
                         <div className="filter__sizes">
-                            <div className="type--bg">
+                            <div className="type__bg">
                                 <div className="filter__type">8 oz</div>
                             </div>
-                            <div className="type--bg">
+                            <div className="type__bg">
                                 <div className="filter__type">16 oz</div>
                             </div>
                         </div>

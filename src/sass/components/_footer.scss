@@ -2,7 +2,7 @@
     display: flex;
     background-color: $color-black;
 
-    &--left{
+    &__left{
         flex:1;
         display:flex;
         flex-direction: column;
@@ -10,18 +10,18 @@
         text-align: left;
     }
 
-    &--description{
+    &__description{
         font-size: 2rem;
         margin: 2rem 0;
         color: $color-primary;
     }
     
 
-    &--social-container{
+    &__social-container{
         display: flex;
     }
 
-    &--social-icon{
+    &__social-icon{
         width: 5rem;
         height: 5rem;
         border-radius: 50%;
@@ -44,26 +44,26 @@
         
     }
     
-    &--icon{
+    &__icon{
         transform: scale(2);
     }
-    &--center{
+    &__center{
         flex:1;
         padding: 2rem;
         color: $color-primary;
     }
     
-    &--title{
+    &__title{
         font-size: 3rem;
         //text-decoration: underline;
         margin-bottom: 2rem;
 
     }
-    &--list{
+    &__list{
         display: flex;
         flex-wrap: wrap;
         
-        &__list-item{
+        &--list-item{
             font-size: 2rem;
             margin-left: 1.5rem;
             transition: .5s all ease;
@@ -81,21 +81,21 @@
     }
     
     
-    &--right{
+    &__right{
         flex:1;
         padding: 2rem;
         color: $color-primary;
     }
 
-    &--contact{
+    &__contact{
         color: $color-primary;
 
-        &__item{
+        &--item{
             font-size: 2rem;
             margin-bottom: 1rem;
         }
 
-        &__icon{
+        &--icon{
             color: $color-secondary-dark;
             margin-right: 1rem;
             transform: scale(1.5);

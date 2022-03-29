@@ -4,12 +4,12 @@ import bgImage from '../videos/background-img.mp4'
 const Newsletter = () => {
   return (
     <div className="newsletter">
-        <h1 className="newsletter--title">Newsletter</h1>
-        <p className="newsletter--description">Stay up to date on our latest products!</p>
-        <div className="newsletter--input">
-            <input className="newsletter--input__info" placeholder="Enter Email Address"/>
-            <button className="newsletter--input__submit">
-                    <Send className="newsletter--icon"/>
+        <h1 className="newsletter__title">Newsletter</h1>
+        <p className="newsletter__description">Stay up to date on our latest products!</p>
+        <div className="newsletter__input">
+            <input className="newsletter__input--info" placeholder="Enter Email Address"/>
+            <button className="newsletter__input--submit">
+                    <Send className="newsletter__icon"/>
             </button>
         </div>
         <div>

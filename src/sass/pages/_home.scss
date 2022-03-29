@@ -31,7 +31,7 @@
     grid-template-columns: 3fr 1fr;
 
 
-    &--image{
+    &__image{
         //background-image: url("https://images.pexels.com/photos/6700513/pexels-photo-6700513.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
         background-size:cover;
         background-repeat: no-repeat;
@@ -40,7 +40,7 @@
         filter: opacity(.85);
     }
 
-    &--info{
+    &__info{
         display:grid;
         padding-top: 5rem;
         padding-bottom: 5rem;

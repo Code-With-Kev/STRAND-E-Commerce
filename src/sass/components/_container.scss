@@ -1,5 +1,5 @@
 .container{
-    &--announcement{
+    &__announcement{
         height: 4rem;
         background-color: #E85A4F;
         color: #EAE7DC;
@@ -10,7 +10,7 @@
         font-weight: 500;
     }
 
-    &--navbar{
+    &__navbar{
         height: 6rem;
     }
 

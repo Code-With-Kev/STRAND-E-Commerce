@@ -1,18 +1,18 @@
 .navbar{
-    &--wrapper{
+    &__wrapper{
         padding: 10px 20px;
         display: flex;
         justify-content: space-between;
         min-width: 1000px;
     }
 
-    &--left{
+    &__left{
         flex:1;
         display: flex;
         align-items: center
     }
 
-    &--right{
+    &__right{
         flex:1;
         display:flex;
         align-items: center;
@@ -20,18 +20,18 @@
         color: $color-black;
     }
 
-    &--center{
+    &__center{
         flex:1;
         text-align: center;
     }
 
-    &--language{
+    &__language{
         font-size: 14px;
         cursor: pointer;
         color: $color-black;
     }
 
-    &--menu-item{
+    &__menu-item{
         font-size: 1.7rem;
         cursor: pointer;
         margin-left: 25px;

@@ -19,21 +19,21 @@ const Slideshow = () => {
 
             {/* --------------------------------------SLIDE ARROWS--------------------------------------------------- */}
 
-            <div className="slider--arrow slider--arrow__left" onClick={    (e) =>  handleClick("left")     }>
-                <ArrowLeftOutlined className="slider--arrow-icon" />
+            <div className="slider__arrow slider__arrow--left" onClick={    (e) =>  handleClick("left")     }>
+                <ArrowLeftOutlined className="slider__arrow-icon" />
             </div>
 
-            <div className="slider--arrow slider--arrow__right" onClick={    (e) =>  handleClick("right")     }>
-                <ArrowRightOutlined className="slider--arrow-icon"/>
+            <div className="slider__arrow slider__arrow--right" onClick={    (e) =>  handleClick("right")     }>
+                <ArrowRightOutlined className="slider__arrow-icon"/>
             </div>
 
             {/* ---------------------------------------SLIDESHOW--------------------------------------------------- */}
             <div className={`slideshow-two slideshow${slideIndex}`}>
                 {slideshowSets.map(slide =>
                 <div className="slide" key={slide.id}>
-                    <div className="slide--image" style={{backgroundImage: `url(${slide.img})`}}></div>
+                    <div className="slide__image" style={{backgroundImage: `url(${slide.img})`}}></div>
                 
-                    <div className="slide--info">
+                    <div className="slide__info">
                         <div>
                             <span className="title title__standard">{slide.standardA}</span> <br/>
                             <div className="skew"><span className="title title__highlight">{slide.highlightA}</span><br/></div>

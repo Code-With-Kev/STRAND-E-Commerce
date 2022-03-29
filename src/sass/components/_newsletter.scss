@@ -11,20 +11,20 @@
     opacity: 1;
     
 
-    &--title{
+    &__title{
         font-size: 7rem;
         margin-bottom: 4rem;
         position: relative;
         z-index: 1;
         opacity: 1.5;
     }
-    &--description{
+    &__description{
         font-size: 4rem;
         font-weight: 500;
         margin-bottom: 4rem;
         z-index: 1;
     }
-    &--input{
+    &__input{
         display: flex;
         height: 4rem;
         width: 50%;
@@ -33,7 +33,7 @@
         z-index: 1;
         
 
-        &__info{
+        &--info{
         height: 100%;
         width: 93%;
         border: none;
@@ -41,7 +41,7 @@
         
         }
 
-        &__submit{
+        &--submit{
         width: 7%;
         display: flex;
         align-items: center;
@@ -54,7 +54,7 @@
 
     }
     
-    &--icon{
+    &__icon{
         transform: scale(2);
     }
     

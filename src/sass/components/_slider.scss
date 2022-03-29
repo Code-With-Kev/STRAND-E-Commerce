@@ -3,7 +3,7 @@
     width: 100%;
     
 
-    &--arrow{
+    &__arrow{
         width: 5rem;
         height: 5rem;
         border-radius: 50%;
@@ -24,7 +24,7 @@
                 opacity: 1;
             }
 
-        &__left{
+        &--left{
             // top: 50%;
             // left: 5%;
             top: 90%;
@@ -35,7 +35,7 @@
             }
 
         }
-        &__right{
+        &--right{
             top: 90%;
             right: 7%;
 
@@ -45,24 +45,24 @@
         }
     }
 
-    &--arrow-icon{
+    &__arrow-icon{
         transform: scale(2.5);
         color: $color-primary;
     }
 
-    &--slideshow{
+    &__slideshow{
         display: flex;
         align-items: center;;
         width: 100%;
         height: 100vh;
     }
 
-    &--image-container{
+    &__image-container{
         flex: 1;
         height: 100%;
     }
 
-    &--image{
+    &__image{
         height:90%;
         min-width: 50%;
         margin:auto;
@@ -73,7 +73,7 @@
         }
     }
 
-    &--info-container{
+    &__info-container{
         display: flex;
         flex-direction: column;
         flex: 1;
