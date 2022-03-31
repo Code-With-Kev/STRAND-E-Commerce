@@ -10,7 +10,7 @@ const Navbar = () => {
             <div className="navbar__left">
                 <span className="navbar__language">EN</span>
                 <div className="search-bar">
-                    <input classname="search-bar__input"/>
+                    <input placeholder="Search" className="search-bar__input"/>
                     <Search style={{color:"#8E8D8A", fontSize:"16px"}} />
                 </div>
             </div>
@@ -23,7 +23,7 @@ const Navbar = () => {
                 <div className="navbar__menu-item">REGISTER</div>
                 <div className="navbar__menu-item">SIGN IN</div>
                 <div className="navbar__menu-item">
-                        <ShoppingCartOutlined style={{transform: "scale(1.5)"}}/>
+                        <ShoppingCartOutlined className="shopping"/>
                 </div>
             </div>
 

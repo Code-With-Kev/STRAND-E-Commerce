@@ -5,8 +5,20 @@
     margin-left: 25px;
     padding: 5px;
 
-    &--input{
-        border:none
+    @include media('<=phone'){
+        margin-left: 1rem;  
+        margin: 0;
+        width: 8rem;
+    }
+
+    &__input{
+        border:none;
+        background-color: $color-primary;
+        outline: none;
+
+        @include media('<=phone'){
+            width: 5rem;
+        }
     }
 
 }

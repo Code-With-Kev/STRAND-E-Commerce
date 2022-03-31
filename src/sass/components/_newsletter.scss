@@ -9,6 +9,10 @@
     overflow: hidden;
     position: relative;
     opacity: 1;
+
+    @include media('<=phone'){
+        text-align: center;
+    }
     
 
     &__title{
@@ -23,6 +27,11 @@
         font-weight: 500;
         margin-bottom: 4rem;
         z-index: 1;
+
+        @include media('<=phone'){
+           font-size: 2.5rem; 
+        }
+        
     }
     &__input{
         display: flex;
@@ -31,6 +40,10 @@
         outline: none;
         border: none;
         z-index: 1;
+
+        @include media('<=phone'){
+            width: 80%; 
+        }
         
 
         &--info{
@@ -50,6 +63,10 @@
         border: none;
         background-color: $color-black;
         color: $color-primary;
+
+        @include media('<=phone'){
+            width: 18%;  
+        }
         }
 
     }
@@ -67,6 +84,13 @@
     z-index: -1;
     width: 150%;
     min-width: 2000px;
+
+    @include media('<=phone'){
+        min-width: 300px; 
+        top: -28rem;
+        left: -75rem;
+        width: 250rem;
+    }
     
     &::before{
         content: "";

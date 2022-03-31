@@ -1,15 +1,28 @@
 .navbar{
+
     &__wrapper{
         padding: 10px 20px;
         display: flex;
         justify-content: space-between;
         min-width: 1000px;
+
+        @include media('<=phone'){
+            font-size: 1.5rem;
+            width: 100vw;
+            padding: 1rem 1rem;
+            min-width: 100%;
+        }
     }
 
     &__left{
         flex:1;
         display: flex;
-        align-items: center
+        align-items: center;
+        
+        @include media('<=phone'){
+            margin-right: 1rem;
+            //Wjustify-content: center;
+        }
     }
 
     &__right{
@@ -18,22 +31,51 @@
         align-items: center;
         justify-content: flex-end;
         color: $color-black;
+
+        @include media('<=phone'){
+            flex:2;
+        }
+    
     }
 
     &__center{
         flex:1;
-        text-align: center;
+        display:flex;
+        justify-content: center;
+
+        @include media('<=phone'){
+            padding-left: 1rem;
+        }
     }
 
     &__language{
-        font-size: 14px;
+        font-size: 1rem;
         cursor: pointer;
         color: $color-black;
+
+        @include media('<=phone'){
+            display: none;
+        }
     }
 
     &__menu-item{
         font-size: 1.7rem;
         cursor: pointer;
         margin-left: 25px;
+
+        @include media('<=phone'){
+            margin: .5rem;
+            font-size: 1.3rem;
+            text-align: center;
+        }
     }
 }
+
+.shopping{
+    transform: scale(1.5);
+
+    @include media('<=phone'){
+        transform: scale(1);
+    }
+}
+

@@ -10,6 +10,13 @@
     position: relative;
     opacity: .9;
 
+    @include media('<=phone'){
+        flex-direction: column;
+        min-width: 300px;  
+    }
+
+    
+
     &--item-container{
         flex-basis: 14%;
         position: relative;
@@ -19,6 +26,7 @@
     &--image{
         width: 100%;
         height: 100%;
+
     }
 
     &--icons-container{
@@ -36,6 +44,11 @@
         opacity: 0;
         background-color: rgba( $color-black, .2);
         transition: .5s all ease;
+
+        @include media('<=phone'){
+            height: 50%;  
+            overflow: hidden;
+        }
 
         &:hover{
             opacity: 1;
