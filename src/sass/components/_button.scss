@@ -36,7 +36,11 @@
         color: $color-primary;
         border: .5rem solid $color-primary;
         filter: drop-shadow( 0rem 0rem 1rem rgba( $color-black, 10));
-        transform: scale(.85)
+        transform: scale(.85);
+
+        @include media('<=phone'){
+            transform: scale(.85);
+        }
     }
 
     &__slide{
@@ -89,7 +93,7 @@
         transform: scale(1.1);
 
         @include media('<=phone'){
-            transform: scale(1);
+            transform: scale(.85);
         }
     }
 
@@ -108,11 +112,25 @@
     font-size: 2rem;
     font-weight: 500;
     transition: .5s all ease;
-    
 
+    @include media('<=phone'){
+        padding: 1rem 3rem;
+        font-size: 1.5rem;
+        flex: 1;
+
+        &:not(:last-child){
+            margin-right: 5rem;
+        }
+    }
+    
+    
     &--long{
         width: 75%;
         margin: 0 auto;
+
+        @include media('<=phone'){
+            width: 85%;
+        }
     }
 
 

@@ -3,17 +3,32 @@
     justify-content: end;
     width: 100%;
 
+    @include media('<=phone'){
+        justify-content: space-evenly; 
+        padding: 1rem 1rem;
+    }
+
     &__left{
         display: flex;
         flex-direction: row;
         width: 71%;
         align-items: center;
+
+        @include media('<=phone'){
+            flex-direction: column;
+        }
     }
 
     &__right{
         width: 20%;
         //height: 150%;
         //text-align: center;
+
+        @include media('<=phone'){
+            display: flex;
+            justify-content: center;
+            margin-top: 2rem;
+        }
     }
 
     &__option{  
@@ -24,23 +39,50 @@
 
         &--product{
             margin: 2rem;
+            @include media('<=phone'){
+                margin: 1rem .5rem; 
+                display: flex;
+                flex-direction: column;
+                flex: 1;
+                justify-content: start;
+                align-items: flex-start;
+                
+            }
         }
 
         &--single{
             margin-top: 4rem;
-            //display: flex;
-            //justify-content: space-between;
-            //flex-wrap: wrap;
+            display: flex;
+            justify-content: center;
+
+            @include media('<=phone'){
+                flex-direction: column;
+            }
         }
     }
 
     &__text{
         font-size: 3rem;
-        font-weight: 600;
+        font-weight: 400;
+        white-space: nowrap;
+
+         @include media('<=phone'){
+            font-size: 3.5rem;
+            text-align: center;
+            color: $color-secondary-dark;
+        }
 
         &--black{
             margin-left: 2rem;
             margin-right: 2rem;
+            color: $color-black;
+
+            @include media('<=phone'){
+                font-size: 2rem;  
+                font-weight: 600;
+                margin: 0;
+                margin-bottom: 1rem;
+            }
         }
 
     }
@@ -51,32 +93,73 @@
         padding-left: 4rem;
         margin-right: 2rem;
         display: flex;
+
+        @include media('<=phone'){
+            padding: 0;
+            margin: 0 auto;
+            margin-top: 2rem;
+            justify-content: space-around;
+        }
     }
 
     &__type{
-        font-size: 3rem;
-        text-align: center;
+        font-size: 2.5rem;
         min-width: 100%;
+        white-space: nowrap;
+        margin: 0 auto;
+
+        @include media('<=phone'){
+            font-size: 2.3rem;
+            text-align: center;
+            min-width: 0%;
+            white-space: nowrap;
+        }
     }
 
     //design filter
     &__select{
-       
+        border: .5px solid #8E8D8A;
+        display:flex;
+        align-items: center;
+        padding: 5px;
+        background-color: transparent;
+        justify-content: center;
+
+        @include media('<=phone'){
+            width: 90%;
+            padding: 1rem;
+        }
+
+        &:not(:last-child){
+            margin-right: 2rem;
+
+            @include media('<=phone'){
+                margin-right: 0rem;
+                margin-bottom: 1rem;    
+            }
+        }
     }
 }
 
-//stop border from moving screen
 .type__bg{
     margin-right: 4rem;
     transition: .5s all ease;
-    width: 25%;
+    width: fit-content;
     border-left: 0px solid rgba($color-primary-light, 0);
     border-right: 0px solid rgba($color-primary-light, 0);
     cursor: pointer;
+    padding: 0 2rem;
 
     &:hover{
     border-left: 5px solid rgba($color-secondary-light, 1);
     border-right: 5px solid rgba($color-secondary-light, 1);
+    }
+
+    @include media('<=phone'){
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
     }
     
 }

@@ -1,5 +1,6 @@
 .item{
     color: $color-black;
+
     
     &__image{
         width:100%;
@@ -7,15 +8,29 @@
         object-fit:cover;
         object-position: 0 0;
         transform-origin: top;
+
+        @include media('<=phone'){
+            height: 50vh;
+        }
     }
     
     &__section{
         padding: 5rem;
         display:flex;
+
+        @include media('<=phone'){
+            flex-direction: column;  
+            padding: 1rem;
+        }
     }
 
     &__image-container{
         flex: 1;
+
+        @include media('<=phone'){
+            flex-direction: column;  
+            padding: 0;
+        }
     }
 
     &__info-container{
@@ -26,16 +41,31 @@
         p{
             margin-bottom: 2rem;
         }
+
+        @include media('<=phone'){
+            padding: 0 1rem;
+        }
     }
 
     &__title{
         font-size: 5rem;
         color: $color-secondary-light;
+
+        @include media('<=phone'){
+            text-align: center;
+            margin-top: 2rem;
+        }
     }
 
     &__description{
         font-size: 2.2rem;
         margin-right: 2rem;
+
+        @include media('<=phone'){
+            font-size: 1.8rem;
+            text-align: center;
+            margin-right: 0;
+        }
     }
 
     &__price{

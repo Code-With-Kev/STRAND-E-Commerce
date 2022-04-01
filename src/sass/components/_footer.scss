@@ -1,6 +1,11 @@
 .footer{
     display: flex;
     background-color: $color-black;
+
+    @include media('<=phone'){
+        flex-direction: column;  
+        padding-bottom: 2rem;
+    }
     
 
     &__left{
@@ -9,17 +14,26 @@
         flex-direction: column;
         padding: 2rem;
         text-align: left;
+
     }
 
     &__description{
         font-size: 2rem;
         margin: 2rem 0;
         color: $color-primary;
+
+        @include media('<=phone'){
+            text-align: center;    
+        }
+        
     }
     
 
     &__social-container{
         display: flex;
+        @include media('<=phone'){
+            justify-content: center;    
+        }
     }
 
     &__social-icon{
@@ -52,6 +66,11 @@
         flex:1;
         padding: 2rem;
         color: $color-primary;
+
+        @include media('<=phone'){
+        display: none;    
+        }
+        
     }
     
     &__title{

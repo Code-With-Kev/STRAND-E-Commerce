@@ -2,4 +2,9 @@
     width:100%;
     border-bottom: 2px solid $color-primary-light;
     padding-top: 8rem;
+
+    @include media('<=phone'){
+        padding-top: 2rem;
+        margin-bottom: 1rem;
+    }
 }
