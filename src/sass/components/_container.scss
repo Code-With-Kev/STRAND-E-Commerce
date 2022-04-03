@@ -24,8 +24,11 @@
     }
 
     &__navbar{
-        height: 6rem;
-
+        height: 9rem;
+        
+        @include media('<=phone'){
+            height: 6rem; 
+        }
     }
 
     &__slider{

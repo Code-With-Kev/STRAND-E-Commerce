@@ -5,6 +5,8 @@
         display: flex;
         justify-content: space-between;
         min-width: 1000px;
+        align-items: center;
+        height: 100%;
 
         @include media('<=phone'){
             font-size: 1.5rem;
@@ -49,7 +51,7 @@
     }
 
     &__language{
-        font-size: 1rem;
+        font-size: 2rem;
         cursor: pointer;
         color: $color-black;
 
@@ -59,7 +61,7 @@
     }
 
     &__menu-item{
-        font-size: 1.7rem;
+        font-size: 2.5rem;
         cursor: pointer;
         margin-left: 25px;
 
@@ -72,7 +74,7 @@
 }
 
 .shopping{
-    transform: scale(1.5);
+    transform: scale(2);
 
     @include media('<=phone'){
         transform: scale(1);
