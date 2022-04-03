@@ -43,3 +43,17 @@ https://user-images.githubusercontent.com/96272858/160068544-81505654-6df4-47e6-
 </h1>
 
 <img width="1920" alt="Cart_Page2" src="https://user-images.githubusercontent.com/96272858/160576401-a0d94813-1165-4a5d-a575-049e3370205b.PNG">
+
+<h1 align="center" style="border-bottom: 3px solid gray">
+    <span style="font-size: 20px"><br>Responsive Design</span>
+</h1>
+
+<div align="center">
+    <img width="300" alt="2" src="https://user-images.githubusercontent.com/96272858/161181016-deb43774-73c2-4b07-b889-5d14e7362ae3.png">
+    <img width="300" alt="1" src="https://user-images.githubusercontent.com/96272858/161181021-5b616340-d080-4eee-9d65-18b930a5f6d8.png">
+</div>
+    
+<div align="center">   
+    <img width="300" alt="4" src="https://user-images.githubusercontent.com/96272858/161181031-7200476c-018a-4270-8d97-6baa869f28b6.PNG">
+    <img width="300" alt="3" src="https://user-images.githubusercontent.com/96272858/161181035-ce954983-75d0-41e3-8669-a2c8ce0e38c0.PNG">  
+</div>
